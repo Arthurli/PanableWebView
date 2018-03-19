@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1419FC2C39B9DC6F9564B979 /* Pods_PanableWebViewDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224A64D01E2E7A5ADFF1AD6B /* Pods_PanableWebViewDemoTests.framework */; };
+		AB702575931D9E92077A5C36 /* Pods_PanableWebViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4C2D65E26E84CB14663D31 /* Pods_PanableWebViewDemo.framework */; };
+		DBA09922205FEB6800FFEFB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA09921205FEB6800FFEFB4 /* AppDelegate.swift */; };
+		DBA09924205FEB6800FFEFB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA09923205FEB6800FFEFB4 /* ViewController.swift */; };
+		DBA09927205FEB6800FFEFB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA09925205FEB6800FFEFB4 /* Main.storyboard */; };
+		DBA09929205FEB6800FFEFB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA09928205FEB6800FFEFB4 /* Assets.xcassets */; };
+		DBA0992C205FEB6800FFEFB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA0992A205FEB6800FFEFB4 /* LaunchScreen.storyboard */; };
+		DBA09937205FEB6800FFEFB4 /* PanableWebViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA09936205FEB6800FFEFB4 /* PanableWebViewDemoTests.swift */; };
+		DBA09943205FEBA600FFEFB4 /* PanableWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA09942205FEBA600FFEFB4 /* PanableWebView.swift */; };
+		DBA09945205FEBF200FFEFB4 /* DefaultPanableAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA09944205FEBF200FFEFB4 /* DefaultPanableAlertView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBA09933205FEB6800FFEFB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBA09916205FEB6800FFEFB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBA0991D205FEB6800FFEFB4;
+			remoteInfo = PanableWebViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		224A64D01E2E7A5ADFF1AD6B /* Pods_PanableWebViewDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PanableWebViewDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A383107C50CE5923155D32A /* Pods-PanableWebViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PanableWebViewDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PanableWebViewDemoTests/Pods-PanableWebViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		656B145F2F6CA7C6C8DE5F7C /* Pods-PanableWebViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PanableWebViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PanableWebViewDemo/Pods-PanableWebViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		93A7842E1CCCE8CDE4AFE1C5 /* Pods-PanableWebViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PanableWebViewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PanableWebViewDemoTests/Pods-PanableWebViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBA0991E205FEB6800FFEFB4 /* PanableWebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanableWebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA09921205FEB6800FFEFB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBA09923205FEB6800FFEFB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBA09926205FEB6800FFEFB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBA09928205FEB6800FFEFB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBA0992B205FEB6800FFEFB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBA0992D205FEB6800FFEFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA09932205FEB6800FFEFB4 /* PanableWebViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanableWebViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA09936205FEB6800FFEFB4 /* PanableWebViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanableWebViewDemoTests.swift; sourceTree = "<group>"; };
+		DBA09938205FEB6800FFEFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA09942205FEBA600FFEFB4 /* PanableWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanableWebView.swift; sourceTree = "<group>"; };
+		DBA09944205FEBF200FFEFB4 /* DefaultPanableAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPanableAlertView.swift; sourceTree = "<group>"; };
+		EE4C2D65E26E84CB14663D31 /* Pods_PanableWebViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PanableWebViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF50AB0F13AAE87BF09CA83 /* Pods-PanableWebViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PanableWebViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PanableWebViewDemo/Pods-PanableWebViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBA0991B205FEB6800FFEFB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB702575931D9E92077A5C36 /* Pods_PanableWebViewDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA0992F205FEB6800FFEFB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1419FC2C39B9DC6F9564B979 /* Pods_PanableWebViewDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		610303C28627C1D3ADB8CCEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCF50AB0F13AAE87BF09CA83 /* Pods-PanableWebViewDemo.debug.xcconfig */,
+				656B145F2F6CA7C6C8DE5F7C /* Pods-PanableWebViewDemo.release.xcconfig */,
+				93A7842E1CCCE8CDE4AFE1C5 /* Pods-PanableWebViewDemoTests.debug.xcconfig */,
+				2A383107C50CE5923155D32A /* Pods-PanableWebViewDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F052D1D00AB876871C0AE58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C2D65E26E84CB14663D31 /* Pods_PanableWebViewDemo.framework */,
+				224A64D01E2E7A5ADFF1AD6B /* Pods_PanableWebViewDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBA09915205FEB6800FFEFB4 = {
+			isa = PBXGroup;
+			children = (
+				DBA09920205FEB6800FFEFB4 /* PanableWebViewDemo */,
+				DBA09935205FEB6800FFEFB4 /* PanableWebViewDemoTests */,
+				DBA0991F205FEB6800FFEFB4 /* Products */,
+				610303C28627C1D3ADB8CCEE /* Pods */,
+				6F052D1D00AB876871C0AE58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBA0991F205FEB6800FFEFB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBA0991E205FEB6800FFEFB4 /* PanableWebViewDemo.app */,
+				DBA09932205FEB6800FFEFB4 /* PanableWebViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBA09920205FEB6800FFEFB4 /* PanableWebViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DBA09921205FEB6800FFEFB4 /* AppDelegate.swift */,
+				DBA09923205FEB6800FFEFB4 /* ViewController.swift */,
+				DBA09941205FEB9100FFEFB4 /* PanableWebView */,
+				DBA09925205FEB6800FFEFB4 /* Main.storyboard */,
+				DBA09928205FEB6800FFEFB4 /* Assets.xcassets */,
+				DBA0992A205FEB6800FFEFB4 /* LaunchScreen.storyboard */,
+				DBA0992D205FEB6800FFEFB4 /* Info.plist */,
+			);
+			path = PanableWebViewDemo;
+			sourceTree = "<group>";
+		};
+		DBA09935205FEB6800FFEFB4 /* PanableWebViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBA09936205FEB6800FFEFB4 /* PanableWebViewDemoTests.swift */,
+				DBA09938205FEB6800FFEFB4 /* Info.plist */,
+			);
+			path = PanableWebViewDemoTests;
+			sourceTree = "<group>";
+		};
+		DBA09941205FEB9100FFEFB4 /* PanableWebView */ = {
+			isa = PBXGroup;
+			children = (
+				DBA09942205FEBA600FFEFB4 /* PanableWebView.swift */,
+				DBA09944205FEBF200FFEFB4 /* DefaultPanableAlertView.swift */,
+			);
+			name = PanableWebView;
+			path = ../../PanableWebView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBA0991D205FEB6800FFEFB4 /* PanableWebViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA0993B205FEB6800FFEFB4 /* Build configuration list for PBXNativeTarget "PanableWebViewDemo" */;
+			buildPhases = (
+				0632FB2A456121F1375A3634 /* [CP] Check Pods Manifest.lock */,
+				DBA0991A205FEB6800FFEFB4 /* Sources */,
+				DBA0991B205FEB6800FFEFB4 /* Frameworks */,
+				DBA0991C205FEB6800FFEFB4 /* Resources */,
+				51F427670AF352B514519783 /* [CP] Embed Pods Frameworks */,
+				546282096141BDBB37F23351 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanableWebViewDemo;
+			productName = PanableWebViewDemo;
+			productReference = DBA0991E205FEB6800FFEFB4 /* PanableWebViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBA09931205FEB6800FFEFB4 /* PanableWebViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA0993E205FEB6800FFEFB4 /* Build configuration list for PBXNativeTarget "PanableWebViewDemoTests" */;
+			buildPhases = (
+				CEA61FA3C1522EC60E016E1C /* [CP] Check Pods Manifest.lock */,
+				DBA0992E205FEB6800FFEFB4 /* Sources */,
+				DBA0992F205FEB6800FFEFB4 /* Frameworks */,
+				DBA09930205FEB6800FFEFB4 /* Resources */,
+				2FCC360CBE30F8D7ECFCFFDD /* [CP] Embed Pods Frameworks */,
+				4DA18DE76325BC3E77B38B1E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBA09934205FEB6800FFEFB4 /* PBXTargetDependency */,
+			);
+			name = PanableWebViewDemoTests;
+			productName = PanableWebViewDemoTests;
+			productReference = DBA09932205FEB6800FFEFB4 /* PanableWebViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBA09916205FEB6800FFEFB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lichen;
+				TargetAttributes = {
+					DBA0991D205FEB6800FFEFB4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DBA09931205FEB6800FFEFB4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBA0991D205FEB6800FFEFB4;
+					};
+				};
+			};
+			buildConfigurationList = DBA09919205FEB6800FFEFB4 /* Build configuration list for PBXProject "PanableWebViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBA09915205FEB6800FFEFB4;
+			productRefGroup = DBA0991F205FEB6800FFEFB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBA0991D205FEB6800FFEFB4 /* PanableWebViewDemo */,
+				DBA09931205FEB6800FFEFB4 /* PanableWebViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBA0991C205FEB6800FFEFB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA0992C205FEB6800FFEFB4 /* LaunchScreen.storyboard in Resources */,
+				DBA09929205FEB6800FFEFB4 /* Assets.xcassets in Resources */,
+				DBA09927205FEB6800FFEFB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA09930205FEB6800FFEFB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0632FB2A456121F1375A3634 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PanableWebViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FCC360CBE30F8D7ECFCFFDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PanableWebViewDemoTests/Pods-PanableWebViewDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DA18DE76325BC3E77B38B1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PanableWebViewDemoTests/Pods-PanableWebViewDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51F427670AF352B514519783 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PanableWebViewDemo/Pods-PanableWebViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PanableWebViewDemo/Pods-PanableWebViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		546282096141BDBB37F23351 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PanableWebViewDemo/Pods-PanableWebViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA61FA3C1522EC60E016E1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PanableWebViewDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBA0991A205FEB6800FFEFB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA09943205FEBA600FFEFB4 /* PanableWebView.swift in Sources */,
+				DBA09924205FEB6800FFEFB4 /* ViewController.swift in Sources */,
+				DBA09945205FEBF200FFEFB4 /* DefaultPanableAlertView.swift in Sources */,
+				DBA09922205FEB6800FFEFB4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA0992E205FEB6800FFEFB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA09937205FEB6800FFEFB4 /* PanableWebViewDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBA09934205FEB6800FFEFB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBA0991D205FEB6800FFEFB4 /* PanableWebViewDemo */;
+			targetProxy = DBA09933205FEB6800FFEFB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBA09925205FEB6800FFEFB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBA09926205FEB6800FFEFB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBA0992A205FEB6800FFEFB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBA0992B205FEB6800FFEFB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBA09939205FEB6800FFEFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBA0993A205FEB6800FFEFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBA0993C205FEB6800FFEFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF50AB0F13AAE87BF09CA83 /* Pods-PanableWebViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PanableWebViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lichen.arthur.PanableWebViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBA0993D205FEB6800FFEFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656B145F2F6CA7C6C8DE5F7C /* Pods-PanableWebViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PanableWebViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lichen.arthur.PanableWebViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBA0993F205FEB6800FFEFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A7842E1CCCE8CDE4AFE1C5 /* Pods-PanableWebViewDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PanableWebViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lichen.arthur.PanableWebViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanableWebViewDemo.app/PanableWebViewDemo";
+			};
+			name = Debug;
+		};
+		DBA09940205FEB6800FFEFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A383107C50CE5923155D32A /* Pods-PanableWebViewDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PanableWebViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lichen.arthur.PanableWebViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanableWebViewDemo.app/PanableWebViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBA09919205FEB6800FFEFB4 /* Build configuration list for PBXProject "PanableWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA09939205FEB6800FFEFB4 /* Debug */,
+				DBA0993A205FEB6800FFEFB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA0993B205FEB6800FFEFB4 /* Build configuration list for PBXNativeTarget "PanableWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA0993C205FEB6800FFEFB4 /* Debug */,
+				DBA0993D205FEB6800FFEFB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA0993E205FEB6800FFEFB4 /* Build configuration list for PBXNativeTarget "PanableWebViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA0993F205FEB6800FFEFB4 /* Debug */,
+				DBA09940205FEB6800FFEFB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBA09916205FEB6800FFEFB4 /* Project object */;
+}
